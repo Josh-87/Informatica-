@@ -15,7 +15,7 @@
 
 
 
-            for(let i=0;i<500;i++)
+            for(let i=0;i<1001;i++)
     {
         if (i%10==0)
 document.write("<span style='color:red;''>"+i +" "+"</span>");
