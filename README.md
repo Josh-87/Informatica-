@@ -1,0 +1,72 @@
+<html>
+   <head>
+     <meta charset="UTF-8">
+     <title>Esercizio Canvas</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <style> body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+   
+   canvas {
+        border: 3px solid black;
+    }
+    </style>
+   </head>
+
+   <body>
+     <canvas id="myCanvas"></canvas>
+    <script>
+    let canvas = document.getElementById('myCanvas');
+        canvas.width = 600;
+        canvas.height = 400;
+        
+        let ctx = canvas.getContext('2d');
+        ctx.beginPath();
+ctx.arc(50, 75, 5, 0, 2 * 3.14);
+ctx.stroke(); 
+
+ctx.beginPath();
+ctx.arc(100, 75, 5, 0, 2 * 3.14);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(150, 75, 5, 0, 2 * 3.14);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(200, 75, 5, 0, 2 * 3.14);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(250, 75, 5, 0, 2 * 3.14);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(300, 75, 5, 0, 2 * 3.14);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(350, 75, 5, 0, 2 * 3.14);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(400, 75, 5, 0, 2 * 3.14);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(450, 75, 5, 0, 2 * 3.14);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(500, 75, 5, 0, 2 * 3.14);
+ctx.stroke();
+        </script> 
+    
+ 
+   </body>
+
+   <script src="main.js"></script>
+ </html>
